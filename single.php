@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <!-- 記事ページ -->
-<div class="main">
+<div id="single_main">
   <?php if (have_posts()) : ?>
     <?php while (have_posts()) : the_post(); ?>
       <!-- 日付 -->
