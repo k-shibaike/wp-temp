@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<div class="main">
+<div id="post_main">
   <?php if (have_posts()) : ?>
     <?php while (have_posts()) : the_post(); ?>
       <!-- 日付 -->
