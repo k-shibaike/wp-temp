@@ -7,7 +7,6 @@
   <?php wp_head(); ?>
 </head>
 <body>
-  
 <header id="header_pc">
       <div class="header-left">
         <a href="/">
